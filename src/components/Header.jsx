@@ -9,7 +9,7 @@ const Header = () => {
     return <header className="w-full py-5">
         <div className="container flex items-center justify-between border-b border-b-white-95 pb-5">
             <a href="#">
-                <img src="/public/logo.png" alt="logo" width={170} height={50}/>
+                <img src="/logo.png" alt="logo" width={170} height={50}/>
             </a>
 
             {/* mobile-menu */}

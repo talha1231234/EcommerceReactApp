@@ -13,7 +13,7 @@ const Footer = () => {
             <motion.div variants={varients.fadeInUp}>
                 {/* FooterLogo */}
                 <div>
-                    <img src="/public/logo.png" alt="footerLogo" width={150} height={50}/>
+                    <img src="/logo.png" alt="footerLogo" width={150} height={50}/>
                 </div>
 
                 {/* Links */}

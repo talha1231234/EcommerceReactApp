@@ -5,6 +5,7 @@ import Marquee from "react-fast-marquee";
 import { motion } from "motion/react";
 import * as varients from "../motion/animation";
 
+
 const Hero = () => {
     return <section>
         <motion.div variants={varients.staggerContainer} initial="hidden" whileInView="show" viewport={{once:true}} className="container">
@@ -14,13 +15,13 @@ const Hero = () => {
                 {/* Title */}
                 <div className="relative max-w-max mx-auto pt-8 pl-8">
                     <motion.span variants={varients.fadeInUp} className="absolute top-0 left-0">
-                        <img src="public/shape-1.png" alt="Title-Shape" width={39} height={43} />
+                        <img src="/shape-1.png" alt="Title-Shape" width={39} height={43} />
                     </motion.span>
 
                     <motion.div variants={varients.fadeInUp} className="flex items-center bg-white-99 border border-white-99 rounded-lg p-3.5 justify-center gap-2.5
                     max-w-max mx-auto flex-wrap text-center">
                         <span>
-                            <img src="public/shape-2.png" alt="Title-Shape" width={48} height={48}/>
+                            <img src="/shape-2.png" alt="Title-Shape" width={48} height={48}/>
                         </span>
                         <h1 className="text-2xl md:text-4xl"><span className="text-orange-50">Unlock</span> Your Creative Potential</h1>
                     </motion.div>
